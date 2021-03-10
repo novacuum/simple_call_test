@@ -1,0 +1,794 @@
+[
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/B2_C_TR_Jt5_16_07_10_034_000544.25_B2.htk",
+    "truth": "B2",
+    "predicted": "B2",
+    "loss": 0.0009488195064477623
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/B2_C_TR_Jt5_16_07_10_034_001603.11_B2.htk",
+    "truth": "B2",
+    "predicted": "B2",
+    "loss": 6.258507255552104e-06
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TO_Jt1_16_06_20_029_468521.20_B2.htk",
+    "truth": "B2",
+    "predicted": "B2",
+    "loss": 0.4613989591598511
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TO_Jt2_16_06_12_018_018106.82_B2.htk",
+    "truth": "B2",
+    "predicted": "B2",
+    "loss": 0.08968093246221542
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TO_Jt2_16_06_12_018_193791.20_B2.htk",
+    "truth": "B2",
+    "predicted": "B2",
+    "loss": 0.001934013213030994
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TO_Jt2_16_06_18_005_032169.37_B2.htk",
+    "truth": "B2",
+    "predicted": "B2",
+    "loss": 0.175458624958992
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TO_Jt2_16_06_25_016_029739.00_B2.htk",
+    "truth": "B2",
+    "predicted": "B2",
+    "loss": 0.3068135976791382
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TO_Jt2_16_06_26_010_195566.10_B2.htk",
+    "truth": "B2",
+    "predicted": "B2",
+    "loss": 0.0008705470245331526
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TO_Jt2_16_07_06_014_053484.79_B2.htk",
+    "truth": "B2",
+    "predicted": "B3",
+    "loss": 0.7374777793884277
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TO_Jt3_16_06_18_006_043098.27_B2.htk",
+    "truth": "B2",
+    "predicted": "B2",
+    "loss": 0.011900865472853184
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TO_Jt3_16_06_24_017_061426.06_B2.htk",
+    "truth": "B2",
+    "predicted": "B2",
+    "loss": 0.00547756114974618
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TO_Jt1_16_06_20_015_045959.73_B4.htk",
+    "truth": "B4",
+    "predicted": "B4",
+    "loss": 0.1659996211528778
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TO_Jt2_16_06_20_018_050948.28_B4.htk",
+    "truth": "B4",
+    "predicted": "B4",
+    "loss": 0.14566990733146667
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TO_Jt3_16_07_06_006_089794.53_B4.htk",
+    "truth": "B4",
+    "predicted": "B3",
+    "loss": 3.2408502101898193
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TR_Jt1_16_06_02_108_000242.12_B4.htk",
+    "truth": "B4",
+    "predicted": "B4",
+    "loss": 0.09005347639322281
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TR_Jt1_16_06_02_109_031574.46_B4.htk",
+    "truth": "B4",
+    "predicted": "B4",
+    "loss": 0.06201256811618805
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TR_Jt2_16_06_02_044_Buzz2_000665.63_B4.htk",
+    "truth": "B4",
+    "predicted": "B4",
+    "loss": 0.0061459667049348354
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TR_Jt5_16_06_15_047_012566.78_B4.htk",
+    "truth": "B4",
+    "predicted": "B2",
+    "loss": 4.5392913818359375
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TR_Jt6_16_07_12_017_175631.70_B4.htk",
+    "truth": "B4",
+    "predicted": "B2",
+    "loss": 8.032999992370605
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TR_Jt7_16_07_07_017_102207.50_B4.htk",
+    "truth": "B4",
+    "predicted": "B4",
+    "loss": 0.6049181222915649
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TR_Jt8_16_06_17_019_007138.76_B4.htk",
+    "truth": "B4",
+    "predicted": "B3",
+    "loss": 3.308321475982666
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TR_Jt8_16_07_12_063_076748.57_B4.htk",
+    "truth": "B4",
+    "predicted": "B4",
+    "loss": 0.017300385981798172
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TO_Jt2_16_07_04_023_114627.60_B3.htk",
+    "truth": "B3",
+    "predicted": "B3",
+    "loss": 0.40468987822532654
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TO_Jt3_16_06_20_017_007492.42_B3.htk",
+    "truth": "B3",
+    "predicted": "B3",
+    "loss": 0.17237232625484467
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TO_Jt3_16_07_09_018_013917.09_B3.htk",
+    "truth": "B3",
+    "predicted": "B2",
+    "loss": 3.801955223083496
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TR_Jt3_16_06_16_013_067187.20_B3.htk",
+    "truth": "B3",
+    "predicted": "B3",
+    "loss": 0.009262049570679665
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TR_Jt4_16_06_19_013_011776.85_B3.htk",
+    "truth": "B3",
+    "predicted": "B3",
+    "loss": 0.007289929315447807
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TR_Jt4_16_06_25_005_051849.68_B3.htk",
+    "truth": "B3",
+    "predicted": "B2",
+    "loss": 1.3661880493164062
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TR_Jt5_16_06_17_024_053407.77_B3.htk",
+    "truth": "B3",
+    "predicted": "B3",
+    "loss": 0.3897577226161957
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TR_Jt5_16_06_21_008_068349.49_B3.htk",
+    "truth": "B3",
+    "predicted": "B2",
+    "loss": 2.5631511211395264
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TR_Jt5_16_06_27_025_061551.00_B3.htk",
+    "truth": "B3",
+    "predicted": "B2",
+    "loss": 1.5317749977111816
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TR_Jt5_16_07_12_021_2_337219.70_B3.htk",
+    "truth": "B3",
+    "predicted": "B3",
+    "loss": 0.09698628634214401
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TR_Jt6_16_06_19_076_002179.48_B3.htk",
+    "truth": "B3",
+    "predicted": "B4",
+    "loss": 2.790736675262451
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VSV_C_TO_JT3_16_07_06_003_min37_000032.70_VSV.htk",
+    "truth": "VSV",
+    "predicted": "VSV",
+    "loss": 0.0039196438156068325
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VSV_C_TO_Jt2_16_06_12_018_min165_000368.19_VSV.htk",
+    "truth": "VSV",
+    "predicted": "VSV",
+    "loss": 0.0009130830294452608
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VSV_C_TO_Jt2_16_06_24_015_min22_000027.13_VSV.htk",
+    "truth": "VSV",
+    "predicted": "UPS",
+    "loss": 1.6282613277435303
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VSV_C_TO_Jt2_16_06_26_010_min183_000023.59_VSV.htk",
+    "truth": "VSV",
+    "predicted": "VSV",
+    "loss": 0.00571270240470767
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VSV_C_TO_Jt3_16_06_24_017_min2_000103.78_VSV.htk",
+    "truth": "VSV",
+    "predicted": "VSV",
+    "loss": 0.00025877723237499595
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VSV_C_TO_Jt3_16_07_06_006_min199_000027.19_VSV.htk",
+    "truth": "VSV",
+    "predicted": "VSV",
+    "loss": 0.00356821296736598
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VSV_C_TO_Jt3_16_07_11_009_min171_000038.71_VSV.htk",
+    "truth": "VSV",
+    "predicted": "VSV",
+    "loss": 0.09905265271663666
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VSV_C_TR_JT2_16_06_02_044_min12_000022.88_VSV.htk",
+    "truth": "VSV",
+    "predicted": "VSV",
+    "loss": 0.699787437915802
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VSV_C_TR_Jt2_16_06_02_044_000061.86_VSV.htk",
+    "truth": "VSV",
+    "predicted": "VSV",
+    "loss": 0.03798848018050194
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VSV_C_TR_Jt4_16_07_10_015_min31_000080.22_VSV.htk",
+    "truth": "VSV",
+    "predicted": "VS",
+    "loss": 2.0053205490112305
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VSV_C_TR_Jt5_16_06_23_025_min110_000061.03_VSV.htk",
+    "truth": "VSV",
+    "predicted": "VS",
+    "loss": 1.413234829902649
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VS_C_B_Jto_16_07_04_035_000119.40_VS.htk",
+    "truth": "VS",
+    "predicted": "VS",
+    "loss": 0.04305664449930191
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VS_C_TO_Jt2_16_06_24_015_min22_000039.90_VS.htk",
+    "truth": "VS",
+    "predicted": "VS",
+    "loss": 0.17116525769233704
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VS_C_TO_Jt2_16_06_26_010_min92_000192.90_VS.htk",
+    "truth": "VS",
+    "predicted": "VS",
+    "loss": 0.3976035714149475
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VS_C_TO_Jt2_16_07_06_015_min152_000290.44_VS.htk",
+    "truth": "VS",
+    "predicted": "VS",
+    "loss": 0.06888961046934128
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VS_C_TO_Jt3_16_06_18_006_min13_000193.73_VS.htk",
+    "truth": "VS",
+    "predicted": "VS",
+    "loss": 0.009676572866737843
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VS_C_TR_Jt1_16_06_02_109_min3_000028.25_VS.htk",
+    "truth": "VS",
+    "predicted": "VS",
+    "loss": 0.0789741575717926
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VS_C_TR_Jt2_16_06_02_044_012063.17_VS.htk",
+    "truth": "VS",
+    "predicted": "VS",
+    "loss": 0.008855455555021763
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VS_C_TR_Jt5_16_06_17_024_min77_000032.05_VS.htk",
+    "truth": "VS",
+    "predicted": "VS",
+    "loss": 0.027430200949311256
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VS_C_TR_Jt5_16_06_19_071_min62_000114.44_VS.htk",
+    "truth": "VS",
+    "predicted": "VS",
+    "loss": 0.6849514842033386
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VS_C_TR_Jt5_16_06_23_025_min13_000189.11_VS.htk",
+    "truth": "VS",
+    "predicted": "VS",
+    "loss": 0.13318990170955658
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VS_C_TR_Jt5_16_07_12_021_2_min98_000107.48_VS.htk",
+    "truth": "VS",
+    "predicted": "VS",
+    "loss": 0.08912013471126556
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/T_BCI_E1_Jt1_15_06_06_035_000009.34_UPS.htk",
+    "truth": "UPS",
+    "predicted": "UPS",
+    "loss": 0.0004852995334658772
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/T_BCI_E1_Jt1_15_06_06_035_000645.90_UPS.htk",
+    "truth": "UPS",
+    "predicted": "UPS",
+    "loss": 3.522696715663187e-05
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/T_BCI_E1_Jt1_15_06_13_016_000020.22_UPS.htk",
+    "truth": "UPS",
+    "predicted": "UPS",
+    "loss": 3.4570753086882178e-06
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/T_BCI_E1_Jt1_15_06_13_016_000795.64_UPS.htk",
+    "truth": "UPS",
+    "predicted": "UPS",
+    "loss": 1.4782061043661088e-05
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/T_BCI_E1_Jt1_15_06_17_014_000322.16_UPS.htk",
+    "truth": "UPS",
+    "predicted": "UPS",
+    "loss": 0.00010145224950974807
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/T_BCI_E1_Jt1_15_07_02_018_000315.46_UPS.htk",
+    "truth": "UPS",
+    "predicted": "UPS",
+    "loss": 0.00327957421541214
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/T_BCI_E1_Jt2_15_06_06_018_000274.78_UPS.htk",
+    "truth": "UPS",
+    "predicted": "UPS",
+    "loss": 9.173575381282717e-05
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/T_BCI_E1_Jt2_15_06_21_016_000483.20_UPS.htk",
+    "truth": "UPS",
+    "predicted": "UPS",
+    "loss": 0.00010812866821652278
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/T_BCI_E1_Jt2_15_07_05_007_000167.23_UPS.htk",
+    "truth": "UPS",
+    "predicted": "UPS",
+    "loss": 0.00035959985689260066
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/T_BCI_E3_Jt1_15_07_09_029_000012.59_UPS.htk",
+    "truth": "UPS",
+    "predicted": "UPS",
+    "loss": 7.474701851606369e-05
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/T_BCI_E3_Jt1_15_07_13_054_000618.24_UPS.htk",
+    "truth": "UPS",
+    "predicted": "UPS",
+    "loss": 0.0028741497080773115
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/B2_C_TR_Jt5_16_07_10_034_000707.77_B2.htk",
+    "truth": "B2",
+    "predicted": "B2",
+    "loss": 0.34433019161224365
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/B2_C_TR_Jt5_16_07_10_034_001791.27_B2.htk",
+    "truth": "B2",
+    "predicted": "B2",
+    "loss": 9.340484393760562e-05
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TO_Jt1_16_06_20_029_468395.80_B2.htk",
+    "truth": "B2",
+    "predicted": "B2",
+    "loss": 0.19266360998153687
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TO_Jt2_16_06_12_018_018206.50_B2.htk",
+    "truth": "B2",
+    "predicted": "B2",
+    "loss": 0.14974723756313324
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TO_Jt2_16_06_12_018_193952.50_B2.htk",
+    "truth": "B2",
+    "predicted": "B2",
+    "loss": 0.049862440675497055
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TO_Jt2_16_06_20_018_046849.37_B2.htk",
+    "truth": "B2",
+    "predicted": "B2",
+    "loss": 0.5801934599876404
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TO_Jt2_16_06_25_016_029926.02_B2.htk",
+    "truth": "B2",
+    "predicted": "B4",
+    "loss": 1.6112662553787231
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TO_Jt2_16_07_04_023_185671.90_B2.htk",
+    "truth": "B2",
+    "predicted": "B2",
+    "loss": 0.09776417911052704
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TO_Jt2_16_07_06_014_053632.33_B2.htk",
+    "truth": "B2",
+    "predicted": "B3",
+    "loss": 0.9347980618476868
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TO_Jt3_16_06_18_006_043272.72_B2.htk",
+    "truth": "B2",
+    "predicted": "B2",
+    "loss": 0.005994668696075678
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TO_Jt3_16_06_24_017_061651.37_B2.htk",
+    "truth": "B2",
+    "predicted": "B2",
+    "loss": 0.03396916016936302
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TO_Jt1_16_06_20_015_046203.63_B4.htk",
+    "truth": "B4",
+    "predicted": "B2",
+    "loss": 0.9736543297767639
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TO_Jt2_16_06_20_018_051073.91_B4.htk",
+    "truth": "B4",
+    "predicted": "B4",
+    "loss": 0.3839890658855438
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TO_Jt3_16_07_09_018_037687.37_B4.htk",
+    "truth": "B4",
+    "predicted": "B4",
+    "loss": 0.3275677561759949
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TR_Jt1_16_06_02_109_004707.67_B4.htk",
+    "truth": "B4",
+    "predicted": "B4",
+    "loss": 0.8830379843711853
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TR_Jt1_16_06_02_109_032029.08_B4.htk",
+    "truth": "B4",
+    "predicted": "B4",
+    "loss": 0.16066817939281464
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TR_Jt2_16_06_02_044_Buzz2_000257.50_B4.htk",
+    "truth": "B4",
+    "predicted": "B4",
+    "loss": 0.018318403512239456
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TR_Jt6_16_06_15_082_248000.30_B4.htk",
+    "truth": "B4",
+    "predicted": "B3",
+    "loss": 5.368088245391846
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TR_Jt6_16_07_12_017_175833.90_B4.htk",
+    "truth": "B4",
+    "predicted": "B2",
+    "loss": 6.17417049407959
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TR_Jt7_16_07_07_017_102451.50_B4.htk",
+    "truth": "B4",
+    "predicted": "B4",
+    "loss": 0.7806246876716614
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TR_Jt8_16_06_17_019_007362.62_B4.htk",
+    "truth": "B4",
+    "predicted": "B4",
+    "loss": 0.6575461030006409
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TR_Jt8_16_07_12_063_084102.48_B4.htk",
+    "truth": "B4",
+    "predicted": "B3",
+    "loss": 1.2827882766723633
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TO_Jt2_16_07_04_023_114745.10_B3.htk",
+    "truth": "B3",
+    "predicted": "B3",
+    "loss": 0.26795029640197754
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TO_Jt3_16_06_20_017_006909.42_B3.htk",
+    "truth": "B3",
+    "predicted": "B3",
+    "loss": 0.23304405808448792
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TO_Jt3_16_07_11_009_298654.10_B3.htk",
+    "truth": "B3",
+    "predicted": "B2",
+    "loss": 1.4383127689361572
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TR_Jt3_16_06_16_013_067373.37_B3.htk",
+    "truth": "B3",
+    "predicted": "B3",
+    "loss": 0.05373719334602356
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TR_Jt4_16_06_19_013_012027.60_B3.htk",
+    "truth": "B3",
+    "predicted": "B2",
+    "loss": 0.9849388599395752
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TR_Jt4_16_06_25_005_052221.81_B3.htk",
+    "truth": "B3",
+    "predicted": "B3",
+    "loss": 0.2819887399673462
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TR_Jt5_16_06_17_024_053802.14_B3.htk",
+    "truth": "B3",
+    "predicted": "B2",
+    "loss": 1.1919519901275635
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TR_Jt5_16_06_21_008_068217.85_B3.htk",
+    "truth": "B3",
+    "predicted": "B2",
+    "loss": 1.054648756980896
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TR_Jt5_16_06_27_025_061924.92_B3.htk",
+    "truth": "B3",
+    "predicted": "B3",
+    "loss": 0.6753643155097961
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TR_Jt6_16_06_11_014_024820.46_B3.htk",
+    "truth": "B3",
+    "predicted": "B2",
+    "loss": 7.633183479309082
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/C_TR_Jt6_16_06_23_078_091373.05_B3.htk",
+    "truth": "B3",
+    "predicted": "B3",
+    "loss": 0.06951341778039932
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VSV_C_TO_JT3_16_07_06_003_min37_000110.42_VSV.htk",
+    "truth": "VSV",
+    "predicted": "VSV",
+    "loss": 0.001585547812283039
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VSV_C_TO_Jt2_16_06_12_018_min181_000069.81_VSV.htk",
+    "truth": "VSV",
+    "predicted": "VSV",
+    "loss": 0.0069078425876796246
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VSV_C_TO_Jt2_16_06_24_015_min22_000120.50_VSV.htk",
+    "truth": "VSV",
+    "predicted": "VS",
+    "loss": 2.570939540863037
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VSV_C_TO_Jt2_16_06_26_010_min183_000097.18_VSV.htk",
+    "truth": "VSV",
+    "predicted": "VSV",
+    "loss": 0.01153009757399559
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VSV_C_TO_Jt3_16_06_24_017_min2_000033.86_VSV.htk",
+    "truth": "VSV",
+    "predicted": "VSV",
+    "loss": 0.0005245988722890615
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VSV_C_TO_Jt3_16_07_06_006_min199_000105.39_VSV.htk",
+    "truth": "VSV",
+    "predicted": "VSV",
+    "loss": 0.0033938593696802855
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VSV_C_TO_Jt3_16_07_11_009_min171_000106.70_VSV.htk",
+    "truth": "VSV",
+    "predicted": "VSV",
+    "loss": 0.13803523778915405
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VSV_C_TR_Jt1_16_06_02_109_000035.96_VSV.htk",
+    "truth": "VSV",
+    "predicted": "VSV",
+    "loss": 0.02107871323823929
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VSV_C_TR_Jt2_16_06_02_044_000416.36_VSV.htk",
+    "truth": "VSV",
+    "predicted": "VSV",
+    "loss": 0.04490656033158302
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VSV_C_TR_Jt5_16_06_15_047_min42_000040.97_VSV.htk",
+    "truth": "VSV",
+    "predicted": "B2",
+    "loss": 1.5269663333892822
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VSV_C_TR_Jt5_16_07_12_021_2_min74_000017.91_VSV.htk",
+    "truth": "VSV",
+    "predicted": "VSV",
+    "loss": 0.44538265466690063
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VS_C_B_Jto_16_07_04_035_000208.88_VS.htk",
+    "truth": "VS",
+    "predicted": "VS",
+    "loss": 0.14760234951972961
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VS_C_TO_Jt2_16_06_24_015_min69_000051.23_VS.htk",
+    "truth": "VS",
+    "predicted": "VS",
+    "loss": 0.013507585041224957
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VS_C_TO_Jt2_16_06_26_010_min92_000067.72_VS.htk",
+    "truth": "VS",
+    "predicted": "VS",
+    "loss": 0.02979256585240364
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VS_C_TO_Jt2_16_07_06_015_min152_000377.03_VS.htk",
+    "truth": "VS",
+    "predicted": "VS",
+    "loss": 0.4394257366657257
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VS_C_TO_Jt3_16_07_11_009_min158_000031.49_VS.htk",
+    "truth": "VS",
+    "predicted": "VSV",
+    "loss": 0.8292497992515564
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VS_C_TR_Jt1_16_06_02_109_min3_000129.64_VS.htk",
+    "truth": "VS",
+    "predicted": "VS",
+    "loss": 0.012388898059725761
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VS_C_TR_Jt4_16_06_15_043_min23_000061.00_VS.htk",
+    "truth": "VS",
+    "predicted": "VSV",
+    "loss": 2.930898904800415
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VS_C_TR_Jt5_16_06_17_024_min77_000117.56_VS.htk",
+    "truth": "VS",
+    "predicted": "VS",
+    "loss": 0.01670551672577858
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VS_C_TR_Jt5_16_06_19_071_min62_000187.00_VS.htk",
+    "truth": "VS",
+    "predicted": "VS",
+    "loss": 0.22828541696071625
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VS_C_TR_Jt5_16_06_23_025_min13_000303.28_VS.htk",
+    "truth": "VS",
+    "predicted": "VS",
+    "loss": 0.022663066163659096
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/VS_C_TR_Jt5_16_07_12_021_2_min98_000202.93_VS.htk",
+    "truth": "VS",
+    "predicted": "VS",
+    "loss": 0.051428839564323425
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/T_BCI_E1_Jt1_15_06_06_035_000081.18_UPS.htk",
+    "truth": "UPS",
+    "predicted": "UPS",
+    "loss": 4.7565637942170724e-05
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/T_BCI_E1_Jt1_15_06_06_035_000725.91_UPS.htk",
+    "truth": "UPS",
+    "predicted": "UPS",
+    "loss": 7.057438779156655e-05
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/T_BCI_E1_Jt1_15_06_13_016_000112.63_UPS.htk",
+    "truth": "UPS",
+    "predicted": "UPS",
+    "loss": 3.2663880119798705e-05
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/T_BCI_E1_Jt1_15_06_13_016_000904.67_UPS.htk",
+    "truth": "UPS",
+    "predicted": "UPS",
+    "loss": 0.00027970410883426666
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/T_BCI_E1_Jt1_15_06_21_012_000037.08_UPS.htk",
+    "truth": "UPS",
+    "predicted": "UPS",
+    "loss": 0.00040390301728621125
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/T_BCI_E1_Jt2_15_05_31_097_000047.47_UPS.htk",
+    "truth": "UPS",
+    "predicted": "UPS",
+    "loss": 0.0010365849593654275
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/T_BCI_E1_Jt2_15_06_13_006_000029.81_UPS.htk",
+    "truth": "UPS",
+    "predicted": "UPS",
+    "loss": 1.9669725588755682e-05
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/T_BCI_E1_Jt2_15_06_24_018_000348.69_UPS.htk",
+    "truth": "UPS",
+    "predicted": "UPS",
+    "loss": 0.0001922434603329748
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/T_BCI_E3_Jt1_15_06_22_039_000141.62_UPS.htk",
+    "truth": "UPS",
+    "predicted": "UPS",
+    "loss": 0.0008607037598267198
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/T_BCI_E3_Jt1_15_07_09_029_000118.92_UPS.htk",
+    "truth": "UPS",
+    "predicted": "UPS",
+    "loss": 3.194859891664237e-05
+  },
+  {
+    "filename": "simple_call_test/audio/label_fixed/nr6/sr500000_xpps2000_h256_wHam/hog/T_BCI_E3_Jt1_15_07_13_054_000028.96_UPS.htk",
+    "truth": "UPS",
+    "predicted": "UPS",
+    "loss": 0.00026962815900333226
+  }
+]

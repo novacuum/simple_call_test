@@ -1,0 +1,515 @@
+{
+  "id": "nn_lstm_sct_compressed_nrs12_hog_100/k-fold_8145-88c6-090d-21cf-e724-c728-5dbc-4cf4/rec_k8_v1t2_e100_bva.report",
+  "timestamp": "2020-12-31T09:54:48Z",
+  "val_acc_m": 0.8531249985125,
+  "val_acc_d": 0.057379538207544475,
+  "val_loss_m": 1.6143507510375,
+  "val_loss_d": 1.1658518408091987,
+  "test_acc_m": 0.7328125,
+  "test_acc_d": 0.060480774690333264,
+  "test_loss_m": 0.938881498253897,
+  "test_loss_d": 0.36797497018060277,
+  "epoch_m": 53,
+  "epoch_d": 10.862780491200215,
+  "env": {
+    "os": "Linux",
+    "platform": "Linux-3.10.0-1127.19.1.el7.x86_64-x86_64-with-glibc2.10",
+    "sox": "14.4.2",
+    "java": [
+      "openjdk version \"1.8.0_262\"",
+      "OpenJDK Runtime Environment (build 1.8.0_262-b10)",
+      "OpenJDK 64-Bit Server VM (build 25.262-b10, mixed mode)"
+    ],
+    "keras": "2.4.0",
+    "tf": "2.3.1",
+    "gpu": "device: 0, name: Tesla P100-PCIE-12GB, pci bus id: 0000:88:00.0, compute capability: 6.0"
+  },
+  "pipeline": [
+    {
+      "task": "AudioLoadTask",
+      "props": {
+        "mdb": "simple_call_test/metadata.json",
+        "dataset_name": "simple_call_test",
+        "source": "simple_call_test/audio"
+      }
+    },
+    {
+      "task": "DurationLengthFilter",
+      "props": {
+        "min_duration_length": 0.022
+      }
+    },
+    {
+      "task": "MinCountLabelFilter",
+      "props": {
+        "min_count": 50
+      }
+    },
+    {
+      "task": "ExtractLabelPartsTask",
+      "props": {
+        "fixed_length": false,
+        "dataset_name": null,
+        "padded_left": false
+      }
+    },
+    {
+      "task": "NoiseReduceTask",
+      "props": {
+        "sensitivity": 12,
+        "noise": [
+          {
+            "task": "AudioLoadTask",
+            "props": {
+              "mdb": "simple_call_test/metadata.json",
+              "dataset_name": "simple_call_test",
+              "source": "simple_call_test/audio"
+            }
+          },
+          {
+            "task": "DurationLengthFilter",
+            "props": {
+              "min_duration_length": 0.022
+            }
+          },
+          {
+            "task": "MinCountLabelFilter",
+            "props": {
+              "min_count": 50
+            }
+          },
+          {
+            "task": "SilentAudioTask",
+            "props": {
+              "max_length": 0.3
+            }
+          },
+          {
+            "task": "NoiseProfileTask",
+            "props": {}
+          }
+        ]
+      }
+    },
+    {
+      "task": "CreateSpectrogramTask",
+      "props": {
+        "sampling_rate": 500000,
+        "width": 100,
+        "window": "Ham"
+      }
+    },
+    {
+      "task": "ExtractHOGHWRecogTask",
+      "props": {}
+    },
+    {
+      "task": "KFoldSeparationTask",
+      "props": {
+        "k": 8,
+        "val_bins": 1,
+        "test_bins": 2
+      }
+    },
+    {
+      "task": "ParallelTask",
+      "props": {
+        "action": "create_nn_model",
+        "kwargs": {
+          "name": "lstm_sct_compressed_nrs12_hog_100",
+          "model": {
+            "name": "sequential",
+            "layers": [
+              {
+                "class_name": "InputLayer",
+                "config": {
+                  "batch_input_shape": [
+                    null,
+                    null,
+                    288
+                  ],
+                  "dtype": "float32",
+                  "sparse": false,
+                  "ragged": true,
+                  "name": "input_1"
+                }
+              },
+              {
+                "class_name": "LSTM",
+                "config": {
+                  "name": "lstm",
+                  "trainable": true,
+                  "dtype": "float32",
+                  "return_sequences": true,
+                  "return_state": false,
+                  "go_backwards": false,
+                  "stateful": false,
+                  "unroll": false,
+                  "time_major": false,
+                  "units": 256,
+                  "activation": "tanh",
+                  "recurrent_activation": "sigmoid",
+                  "use_bias": true,
+                  "kernel_initializer": {
+                    "class_name": "GlorotUniform",
+                    "config": {
+                      "seed": null
+                    }
+                  },
+                  "recurrent_initializer": {
+                    "class_name": "Orthogonal",
+                    "config": {
+                      "gain": 1.0,
+                      "seed": null
+                    }
+                  },
+                  "bias_initializer": {
+                    "class_name": "Zeros",
+                    "config": {}
+                  },
+                  "unit_forget_bias": true,
+                  "kernel_regularizer": null,
+                  "recurrent_regularizer": null,
+                  "bias_regularizer": null,
+                  "activity_regularizer": null,
+                  "kernel_constraint": null,
+                  "recurrent_constraint": null,
+                  "bias_constraint": null,
+                  "dropout": 0.0,
+                  "recurrent_dropout": 0.0,
+                  "implementation": 2
+                }
+              },
+              {
+                "class_name": "LSTM",
+                "config": {
+                  "name": "lstm_1",
+                  "trainable": true,
+                  "dtype": "float32",
+                  "return_sequences": false,
+                  "return_state": false,
+                  "go_backwards": false,
+                  "stateful": false,
+                  "unroll": false,
+                  "time_major": false,
+                  "units": 256,
+                  "activation": "tanh",
+                  "recurrent_activation": "sigmoid",
+                  "use_bias": true,
+                  "kernel_initializer": {
+                    "class_name": "GlorotUniform",
+                    "config": {
+                      "seed": null
+                    }
+                  },
+                  "recurrent_initializer": {
+                    "class_name": "Orthogonal",
+                    "config": {
+                      "gain": 1.0,
+                      "seed": null
+                    }
+                  },
+                  "bias_initializer": {
+                    "class_name": "Zeros",
+                    "config": {}
+                  },
+                  "unit_forget_bias": true,
+                  "kernel_regularizer": null,
+                  "recurrent_regularizer": null,
+                  "bias_regularizer": null,
+                  "activity_regularizer": null,
+                  "kernel_constraint": null,
+                  "recurrent_constraint": null,
+                  "bias_constraint": null,
+                  "dropout": 0.0,
+                  "recurrent_dropout": 0.0,
+                  "implementation": 2
+                }
+              },
+              {
+                "class_name": "Dense",
+                "config": {
+                  "name": "dense",
+                  "trainable": true,
+                  "dtype": "float32",
+                  "units": 1024,
+                  "activation": "linear",
+                  "use_bias": true,
+                  "kernel_initializer": {
+                    "class_name": "GlorotUniform",
+                    "config": {
+                      "seed": null
+                    }
+                  },
+                  "bias_initializer": {
+                    "class_name": "Zeros",
+                    "config": {}
+                  },
+                  "kernel_regularizer": null,
+                  "bias_regularizer": null,
+                  "activity_regularizer": null,
+                  "kernel_constraint": null,
+                  "bias_constraint": null
+                }
+              },
+              {
+                "class_name": "Dropout",
+                "config": {
+                  "name": "dropout",
+                  "trainable": true,
+                  "dtype": "float32",
+                  "rate": 0.5,
+                  "noise_shape": null,
+                  "seed": null
+                }
+              },
+              {
+                "class_name": "Dense",
+                "config": {
+                  "name": "dense_1",
+                  "trainable": true,
+                  "dtype": "float32",
+                  "units": 1024,
+                  "activation": "linear",
+                  "use_bias": true,
+                  "kernel_initializer": {
+                    "class_name": "GlorotUniform",
+                    "config": {
+                      "seed": null
+                    }
+                  },
+                  "bias_initializer": {
+                    "class_name": "Zeros",
+                    "config": {}
+                  },
+                  "kernel_regularizer": null,
+                  "bias_regularizer": null,
+                  "activity_regularizer": null,
+                  "kernel_constraint": null,
+                  "bias_constraint": null
+                }
+              },
+              {
+                "class_name": "Dropout",
+                "config": {
+                  "name": "dropout_1",
+                  "trainable": true,
+                  "dtype": "float32",
+                  "rate": 0.5,
+                  "noise_shape": null,
+                  "seed": null
+                }
+              },
+              {
+                "class_name": "Dense",
+                "config": {
+                  "name": "dense_2",
+                  "trainable": true,
+                  "dtype": "float32",
+                  "units": 4,
+                  "activation": "softmax",
+                  "use_bias": true,
+                  "kernel_initializer": {
+                    "class_name": "GlorotUniform",
+                    "config": {
+                      "seed": null
+                    }
+                  },
+                  "bias_initializer": {
+                    "class_name": "Zeros",
+                    "config": {}
+                  },
+                  "kernel_regularizer": null,
+                  "bias_regularizer": null,
+                  "activity_regularizer": null,
+                  "kernel_constraint": null,
+                  "bias_constraint": null
+                }
+              }
+            ]
+          },
+          "prepare_args": {
+            "add_dim": false
+          },
+          "fit_args": null
+        },
+        "pfl_suffix": "",
+        "pfl_inject": {
+          "validate": "val"
+        }
+      }
+    },
+    {
+      "task": "ParallelTask",
+      "props": {
+        "action": "train",
+        "kwargs": {
+          "epochs": 100,
+          "save_every": 100
+        },
+        "pfl_suffix": "_e100",
+        "pfl_inject": {}
+      }
+    },
+    {
+      "task": "ParallelTask",
+      "props": {
+        "action": "recognize_best_val_acc",
+        "kwargs": {
+          "validate": [
+            {
+              "task": "AudioLoadTask",
+              "props": {
+                "mdb": "simple_call_test/metadata.json",
+                "dataset_name": "simple_call_test",
+                "source": "simple_call_test/audio"
+              }
+            },
+            {
+              "task": "DurationLengthFilter",
+              "props": {
+                "min_duration_length": 0.022
+              }
+            },
+            {
+              "task": "MinCountLabelFilter",
+              "props": {
+                "min_count": 50
+              }
+            },
+            {
+              "task": "ExtractLabelPartsTask",
+              "props": {
+                "fixed_length": false,
+                "dataset_name": null,
+                "padded_left": false
+              }
+            },
+            {
+              "task": "NoiseReduceTask",
+              "props": {
+                "sensitivity": 12,
+                "noise": [
+                  {
+                    "task": "AudioLoadTask",
+                    "props": {
+                      "mdb": "simple_call_test/metadata.json",
+                      "dataset_name": "simple_call_test",
+                      "source": "simple_call_test/audio"
+                    }
+                  },
+                  {
+                    "task": "DurationLengthFilter",
+                    "props": {
+                      "min_duration_length": 0.022
+                    }
+                  },
+                  {
+                    "task": "MinCountLabelFilter",
+                    "props": {
+                      "min_count": 50
+                    }
+                  },
+                  {
+                    "task": "SilentAudioTask",
+                    "props": {
+                      "max_length": 0.3
+                    }
+                  },
+                  {
+                    "task": "NoiseProfileTask",
+                    "props": {}
+                  }
+                ]
+              }
+            },
+            {
+              "task": "CreateSpectrogramTask",
+              "props": {
+                "sampling_rate": 500000,
+                "width": 100,
+                "window": "Ham"
+              }
+            },
+            {
+              "task": "ExtractHOGHWRecogTask",
+              "props": {}
+            },
+            {
+              "task": "KFoldSeparationTask",
+              "props": {
+                "k": 8,
+                "val_bins": 1,
+                "test_bins": 2,
+                "n": 0
+              }
+            }
+          ],
+          "model_path": "simple_call_test/models/nn_lstm_sct_compressed_nrs12_hog_100/814582f5eafabd3fad6b26b4d773d098fc9a4737/best_val_acc_e065_v0.825.h5"
+        },
+        "pfl_suffix": "_bva",
+        "pfl_inject": {
+          "testing": "test"
+        }
+      }
+    },
+    {
+      "task": "KFoldNNMergingTask",
+      "props": {
+        "report_name": [
+          "testing_sct_compressed"
+        ]
+      }
+    }
+  ],
+  "val_acc": [
+    0.8249999881,
+    0.8249999881,
+    0.8000000119,
+    0.9250000119,
+    0.8500000238,
+    0.9250000119,
+    0.8999999762,
+    0.7749999762
+  ],
+  "val_loss": [
+    1.1855477095,
+    1.2948154211,
+    3.495486021,
+    0.8641377687,
+    0.7444524169,
+    0.8777949214,
+    0.9855517149,
+    3.4670200348
+  ],
+  "test_acc": [
+    0.7125,
+    0.775,
+    0.8,
+    0.75,
+    0.75,
+    0.775,
+    0.6125,
+    0.6875
+  ],
+  "test_loss": [
+    1.0421360736840426,
+    0.6904995450315127,
+    0.7866640375214626,
+    0.6768638957143139,
+    0.6461058223456575,
+    0.673996072704432,
+    1.5415967025459125,
+    1.4531898364838418
+  ],
+  "epoch": [
+    65,
+    49,
+    55,
+    53,
+    47,
+    32,
+    66,
+    57
+  ]
+}

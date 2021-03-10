@@ -1,0 +1,417 @@
+{
+  "id": "nn_lstm_sct_compressed_nrs0_raw_100/14d6b8bfc03c1ec81909b88770d968d23f22f88b/rec/rec_0fcb9e4f4e4a0ccccb8927bc8bfd8f126b05bd1c_e37.report",
+  "timestamp": "2020-12-29T18:33:58Z",
+  "accuracy": 0.6875,
+  "loss": 1.2618355884923775,
+  "correct": 55,
+  "incorrect": 25,
+  "total": 80,
+  "confusion": {
+    "B2": {
+      "B2": 17,
+      "B3": 1,
+      "B4": 2,
+      "UPS": 0
+    },
+    "B3": {
+      "B3": 10,
+      "B2": 6,
+      "B4": 0,
+      "UPS": 4
+    },
+    "B4": {
+      "B4": 8,
+      "B2": 8,
+      "B3": 3,
+      "UPS": 1
+    },
+    "UPS": {
+      "UPS": 20,
+      "B2": 0,
+      "B3": 0,
+      "B4": 0
+    }
+  },
+  "failed": [
+    "simple_call_test/audio/label_variable/sr500000_w100_wHam/img/C_TO_Jt2_16_06_20_018_046973.78_B2.htk",
+    "simple_call_test/audio/label_variable/sr500000_w100_wHam/img/C_TO_Jt3_16_06_20_017_007321.50_B2.htk",
+    "simple_call_test/audio/label_variable/sr500000_w100_wHam/img/C_TO_Jt2_16_06_20_018_050948.28_B4.htk",
+    "simple_call_test/audio/label_variable/sr500000_w100_wHam/img/C_TO_Jt3_16_07_06_006_089794.53_B4.htk",
+    "simple_call_test/audio/label_variable/sr500000_w100_wHam/img/C_TR_Jt6_16_06_19_077_038310.63_B4.htk",
+    "simple_call_test/audio/label_variable/sr500000_w100_wHam/img/C_TR_Jt7_16_07_07_017_102586.50_B4.htk",
+    "simple_call_test/audio/label_variable/sr500000_w100_wHam/img/C_TR_Jt8_16_07_12_063_077166.00_B4.htk",
+    "simple_call_test/audio/label_variable/sr500000_w100_wHam/img/C_TO_Jt3_16_07_06_006_225073.80_B3.htk",
+    "simple_call_test/audio/label_variable/sr500000_w100_wHam/img/C_TR_Jt1_16_06_07_058_086450.62_B3.htk",
+    "simple_call_test/audio/label_variable/sr500000_w100_wHam/img/C_TR_Jt4_16_06_15_043_080231.17_B3.htk",
+    "simple_call_test/audio/label_variable/sr500000_w100_wHam/img/C_TR_Jt4_16_06_23_057_154986.30_B3.htk",
+    "simple_call_test/audio/label_variable/sr500000_w100_wHam/img/C_TR_Jt5_16_06_15_047_013379.50_B3.htk",
+    "simple_call_test/audio/label_variable/sr500000_w100_wHam/img/C_TR_Jt5_16_06_19_071_156089.90_B3.htk",
+    "simple_call_test/audio/label_variable/sr500000_w100_wHam/img/C_TR_Jt5_16_06_23_025_077217.57_B3.htk",
+    "simple_call_test/audio/label_variable/sr500000_w100_wHam/img/C_TO_Jt1_16_06_20_029_360627.40_B2.htk",
+    "simple_call_test/audio/label_variable/sr500000_w100_wHam/img/C_TO_Jt1_16_06_20_015_046088.27_B4.htk",
+    "simple_call_test/audio/label_variable/sr500000_w100_wHam/img/C_TO_Jt3_16_07_09_018_037687.37_B4.htk",
+    "simple_call_test/audio/label_variable/sr500000_w100_wHam/img/C_TR_Jt1_16_06_02_109_004707.67_B4.htk",
+    "simple_call_test/audio/label_variable/sr500000_w100_wHam/img/C_TR_Jt4_16_06_23_057_205685.70_B4.htk",
+    "simple_call_test/audio/label_variable/sr500000_w100_wHam/img/C_TR_Jt6_16_06_19_077_037837.14_B4.htk",
+    "simple_call_test/audio/label_variable/sr500000_w100_wHam/img/C_TR_Jt8_16_06_17_019_007138.76_B4.htk",
+    "simple_call_test/audio/label_variable/sr500000_w100_wHam/img/C_TR_Jt8_16_07_12_063_076748.57_B4.htk",
+    "simple_call_test/audio/label_variable/sr500000_w100_wHam/img/C_TO_Jt2_16_06_26_010_301515.80_B3.htk",
+    "simple_call_test/audio/label_variable/sr500000_w100_wHam/img/C_TR_Jt4_16_06_15_043_087065.02_B3.htk",
+    "simple_call_test/audio/label_variable/sr500000_w100_wHam/img/C_TR_Jt5_16_06_23_025_077377.31_B3.htk"
+  ],
+  "env": {
+    "os": "Linux",
+    "platform": "Linux-3.10.0-1127.19.1.el7.x86_64-x86_64-with-glibc2.10",
+    "sox": "14.4.2",
+    "java": [
+      "openjdk version \"1.8.0_262\"",
+      "OpenJDK Runtime Environment (build 1.8.0_262-b10)",
+      "OpenJDK 64-Bit Server VM (build 25.262-b10, mixed mode)"
+    ],
+    "keras": "2.4.0",
+    "tf": "2.3.1",
+    "gpu": "device: 0, name: Tesla P100-PCIE-12GB, pci bus id: 0000:84:00.0, compute capability: 6.0"
+  },
+  "pipeline": [
+    {
+      "task": "AudioLoadTask",
+      "props": {
+        "mdb": "simple_call_test/metadata.json",
+        "dataset_name": "simple_call_test",
+        "source": "simple_call_test/audio"
+      }
+    },
+    {
+      "task": "DurationLengthFilter",
+      "props": {
+        "min_duration_length": 0.022
+      }
+    },
+    {
+      "task": "MinCountLabelFilter",
+      "props": {
+        "min_count": 50
+      }
+    },
+    {
+      "task": "ExtractLabelPartsTask",
+      "props": {
+        "fixed_length": false,
+        "dataset_name": null,
+        "padded_left": false
+      }
+    },
+    {
+      "task": "CreateSpectrogramTask",
+      "props": {
+        "sampling_rate": 500000,
+        "width": 100,
+        "window": "Ham"
+      }
+    },
+    {
+      "task": "ExtractPixelsTask",
+      "props": {}
+    },
+    {
+      "task": "KFoldSeparationTask",
+      "props": {
+        "k": 8,
+        "val_bins": 1,
+        "test_bins": 2,
+        "n": 3
+      }
+    },
+    {
+      "task": "CreateNNModelTask",
+      "props": {
+        "name": "lstm_sct_compressed_nrs0_raw_100",
+        "model": {
+          "name": "sequential",
+          "layers": [
+            {
+              "class_name": "InputLayer",
+              "config": {
+                "batch_input_shape": [
+                  null,
+                  null,
+                  256
+                ],
+                "dtype": "float32",
+                "sparse": false,
+                "ragged": true,
+                "name": "input_1"
+              }
+            },
+            {
+              "class_name": "LSTM",
+              "config": {
+                "name": "lstm",
+                "trainable": true,
+                "dtype": "float32",
+                "return_sequences": true,
+                "return_state": false,
+                "go_backwards": false,
+                "stateful": false,
+                "unroll": false,
+                "time_major": false,
+                "units": 256,
+                "activation": "tanh",
+                "recurrent_activation": "sigmoid",
+                "use_bias": true,
+                "kernel_initializer": {
+                  "class_name": "GlorotUniform",
+                  "config": {
+                    "seed": null
+                  }
+                },
+                "recurrent_initializer": {
+                  "class_name": "Orthogonal",
+                  "config": {
+                    "gain": 1.0,
+                    "seed": null
+                  }
+                },
+                "bias_initializer": {
+                  "class_name": "Zeros",
+                  "config": {}
+                },
+                "unit_forget_bias": true,
+                "kernel_regularizer": null,
+                "recurrent_regularizer": null,
+                "bias_regularizer": null,
+                "activity_regularizer": null,
+                "kernel_constraint": null,
+                "recurrent_constraint": null,
+                "bias_constraint": null,
+                "dropout": 0.0,
+                "recurrent_dropout": 0.0,
+                "implementation": 2
+              }
+            },
+            {
+              "class_name": "LSTM",
+              "config": {
+                "name": "lstm_1",
+                "trainable": true,
+                "dtype": "float32",
+                "return_sequences": false,
+                "return_state": false,
+                "go_backwards": false,
+                "stateful": false,
+                "unroll": false,
+                "time_major": false,
+                "units": 256,
+                "activation": "tanh",
+                "recurrent_activation": "sigmoid",
+                "use_bias": true,
+                "kernel_initializer": {
+                  "class_name": "GlorotUniform",
+                  "config": {
+                    "seed": null
+                  }
+                },
+                "recurrent_initializer": {
+                  "class_name": "Orthogonal",
+                  "config": {
+                    "gain": 1.0,
+                    "seed": null
+                  }
+                },
+                "bias_initializer": {
+                  "class_name": "Zeros",
+                  "config": {}
+                },
+                "unit_forget_bias": true,
+                "kernel_regularizer": null,
+                "recurrent_regularizer": null,
+                "bias_regularizer": null,
+                "activity_regularizer": null,
+                "kernel_constraint": null,
+                "recurrent_constraint": null,
+                "bias_constraint": null,
+                "dropout": 0.0,
+                "recurrent_dropout": 0.0,
+                "implementation": 2
+              }
+            },
+            {
+              "class_name": "Dense",
+              "config": {
+                "name": "dense",
+                "trainable": true,
+                "dtype": "float32",
+                "units": 1024,
+                "activation": "linear",
+                "use_bias": true,
+                "kernel_initializer": {
+                  "class_name": "GlorotUniform",
+                  "config": {
+                    "seed": null
+                  }
+                },
+                "bias_initializer": {
+                  "class_name": "Zeros",
+                  "config": {}
+                },
+                "kernel_regularizer": null,
+                "bias_regularizer": null,
+                "activity_regularizer": null,
+                "kernel_constraint": null,
+                "bias_constraint": null
+              }
+            },
+            {
+              "class_name": "Dropout",
+              "config": {
+                "name": "dropout",
+                "trainable": true,
+                "dtype": "float32",
+                "rate": 0.5,
+                "noise_shape": null,
+                "seed": null
+              }
+            },
+            {
+              "class_name": "Dense",
+              "config": {
+                "name": "dense_1",
+                "trainable": true,
+                "dtype": "float32",
+                "units": 1024,
+                "activation": "linear",
+                "use_bias": true,
+                "kernel_initializer": {
+                  "class_name": "GlorotUniform",
+                  "config": {
+                    "seed": null
+                  }
+                },
+                "bias_initializer": {
+                  "class_name": "Zeros",
+                  "config": {}
+                },
+                "kernel_regularizer": null,
+                "bias_regularizer": null,
+                "activity_regularizer": null,
+                "kernel_constraint": null,
+                "bias_constraint": null
+              }
+            },
+            {
+              "class_name": "Dropout",
+              "config": {
+                "name": "dropout_1",
+                "trainable": true,
+                "dtype": "float32",
+                "rate": 0.5,
+                "noise_shape": null,
+                "seed": null
+              }
+            },
+            {
+              "class_name": "Dense",
+              "config": {
+                "name": "dense_2",
+                "trainable": true,
+                "dtype": "float32",
+                "units": 4,
+                "activation": "softmax",
+                "use_bias": true,
+                "kernel_initializer": {
+                  "class_name": "GlorotUniform",
+                  "config": {
+                    "seed": null
+                  }
+                },
+                "bias_initializer": {
+                  "class_name": "Zeros",
+                  "config": {}
+                },
+                "kernel_regularizer": null,
+                "bias_regularizer": null,
+                "activity_regularizer": null,
+                "kernel_constraint": null,
+                "bias_constraint": null
+              }
+            }
+          ]
+        },
+        "prepare_args": {
+          "add_dim": false
+        },
+        "fit_args": null
+      }
+    },
+    {
+      "task": "TrainNNModelTask",
+      "props": {
+        "epochs": 100,
+        "save_every": 100
+      }
+    },
+    {
+      "task": "RecognizeNNTask",
+      "props": {
+        "validate": [
+          {
+            "task": "AudioLoadTask",
+            "props": {
+              "mdb": "simple_call_test/metadata.json",
+              "dataset_name": "simple_call_test",
+              "source": "simple_call_test/audio"
+            }
+          },
+          {
+            "task": "DurationLengthFilter",
+            "props": {
+              "min_duration_length": 0.022
+            }
+          },
+          {
+            "task": "MinCountLabelFilter",
+            "props": {
+              "min_count": 50
+            }
+          },
+          {
+            "task": "ExtractLabelPartsTask",
+            "props": {
+              "fixed_length": false,
+              "dataset_name": null,
+              "padded_left": false
+            }
+          },
+          {
+            "task": "CreateSpectrogramTask",
+            "props": {
+              "sampling_rate": 500000,
+              "width": 100,
+              "window": "Ham"
+            }
+          },
+          {
+            "task": "ExtractPixelsTask",
+            "props": {}
+          },
+          {
+            "task": "KFoldSeparationTask",
+            "props": {
+              "k": 8,
+              "val_bins": 1,
+              "test_bins": 2,
+              "n": 3
+            }
+          }
+        ],
+        "model_path": "simple_call_test/models/nn_lstm_sct_compressed_nrs0_raw_100/14d6b8bfc03c1ec81909b88770d968d23f22f88b/best_val_acc_e037_v0.825.h5"
+      }
+    },
+    {
+      "task": "ExtractionJSONTask",
+      "props": {
+        "report_name": []
+      }
+    }
+  ]
+}
